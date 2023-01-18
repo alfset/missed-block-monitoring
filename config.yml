@@ -28,7 +28,7 @@ discord:
   # Alert to discord?
   enabled: yes
   # The webhook is set by right-clicking on a channel, editing the settings, and configuring a webhook in the intergrations section.
-  webhook: $WEBHOOK
+  webhook: 
 
 # Telegram settings
 telegram:
@@ -49,7 +49,7 @@ chains:
     chain_id: planq_7070-2
     # Hooray, in v2 we derive the valcons from abci queries so you don't have to jump through hoops to figure out how
     # to convert ed25519 keys to the appropriate bech32 address
-    valoper_address: $VALOPERADDRESS
+    valoper_address: 
     # Should the monitor revert to using public API endpoints if all supplied RCP nodes fail?
     # This isn't always reliable, not all public nodes have websocket proxying setup correctly.
     public_fallback: no
