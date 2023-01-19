@@ -93,7 +93,7 @@ chains:
       # Discord settings
       discord:
         enabled: yes
-        webhook: "" # uses default if blank
+       # webhook: "" # uses default if blank
 
       # Telegram settings
       telegram:
