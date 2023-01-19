@@ -1,9 +1,9 @@
 # missed-block-monitoring
 some script to automatically install and run tenderduty
-Auto installer
+#Auto installer
 wget https://raw.githubusercontent.com/alfset/missed-block-monitoring/main/tenderduty.sh && chmod +x tenderduty.sh && ./tenderduty.sh
 
-manual install Using Docker
+#manual install Using Docker
 
 Install docker
 
