@@ -29,8 +29,8 @@ echo "export VALOPERADDRESS=${VALOPERADDRESS}" >> $HOME/.bash_profile
 echo "export WEBHOOK=${WEBHOOK}" >> $HOME/.bash_profile
 sleep 3
 source $HOME/.bash_profile
-sed -i.back -e "s\webhook:*\webhook: \"$WEBHOOK\"\g" $HOME/missed-block-monitoring/tenderduty/config.yml
-sed -i.back -e "s/valoper_address:*/valoper_address: \"$VALOPERADDRESS\"/" $HOME/missed-block-monitoring/tenderduty/config.yml
+sed -i.back -e "s\webhook:*\webhook: \"$WEBHOOK\"\g" $HOME/tenderduty/config.yml
+sed -i.back -e "s/valoper_address:*/valoper_address: \"$VALOPERADDRESS\"/" $HOME/tenderduty/config.yml
 ##run
 docker stop tenderduty
 docker rm tenderduty
